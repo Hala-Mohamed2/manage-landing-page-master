@@ -1,0 +1,55 @@
+.about {
+  padding: 4rem 0;
+}
+
+.about h1{
+  color: var(--Dark-Blue);
+  text-align: center;
+}
+
+.about-us .swiper-wrapper {
+  margin-top: 5rem;
+}
+
+.about-us .swiper-slide {
+  position: relative;
+  text-align: center;
+  background-color: var(--Very-Light-Gray);
+}
+
+.about-us .swiper-slide img{
+  position: absolute;
+  width: 60px;
+  top: -30px;
+  left: 12rem;
+}
+
+.about-us .swiper-slide h2{
+  color: var(--Dark-Blue);
+  padding-top:3.77rem ;
+  font-size: 18px;
+}
+
+.about-us .swiper-slide p{
+  color: var(--Dark-Grayish-Blue);
+  padding: 2rem 1rem;
+  font-size: 13px ;
+  line-height: 1.5;
+}
+
+.about .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem ;
+}
+
+
+@media (max-width:668px) {
+  .about-us .swiper-slide img{
+    left: 16rem;
+  }
+  .about-us .swiper-slide p{
+    padding: 2rem 5rem;
+  }
+}
